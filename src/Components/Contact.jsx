@@ -13,7 +13,7 @@ const s = () => {
             whileInView='visible'
             transition={{ duration: 0.5 }}
             className='min-h-[70vh] min-w-full flex items-center justify-center'>
-            <div className='flex flex-col items-center justify-center gap-3 space-y-6 p-14'>
+            <div id='contact' className='flex flex-col items-center justify-center gap-3 space-y-6 p-14'>
                 <h1 className='text-center text-5xl md:text-7xl'>
                     <span className='text-5xl bg-gradient-to-r  from-indigo-500 to-blue-500 bg-clip-text text-transparent '>
                         Get in Touch
