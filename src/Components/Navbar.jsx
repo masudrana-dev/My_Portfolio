@@ -50,16 +50,16 @@ const Navbar = () => {
                         </ul>
                         <ul className=' flex gap-5'>
                             <li className='cursor-pointer text-2xl opacity-80 hover:text-red-500 transition-all duration-300 hover:opacity-100'>
-                                <AiFillYoutube />
+                                <a href=""><AiFillYoutube /></a>
                             </li>
                             <li className='cursor-pointer text-2xl opacity-80 hover:text-blue-500 transition-all duration-300 hover:opacity-100'>
-                                <BsFacebook />
+                                <a href="https://www.facebook.com/masudrana.cphd/"><BsFacebook /></a>
                             </li>
                             <li className='cursor-pointer text-2xl opacity-80 hover:text-blue-500 transition-all duration-300 hover:opacity-100'>
-                                <AiFillLinkedin />
+                                <a href="https://www.linkedin.com/in/masud-rana-ba5a8818b/"><AiFillLinkedin /></a>
                             </li>
                             <li className='cursor-pointer text-2xl opacity-80 hover:text-orange-500 transition-all duration-300 hover:opacity-100'>
-                                <AiFillGithub />
+                                <a href="https://github.com/masudrana-dev"><AiFillGithub /></a>
                             </li>
                         </ul>
                     </div>

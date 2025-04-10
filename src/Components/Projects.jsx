@@ -9,27 +9,27 @@ import { motion } from 'framer-motion'
 const projectsData = [
     {
         image: image1,
-        name: 'Habit Tracker',
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id animi maxime veritatis nam, amet, beatae soluta exercitationem ex porro fugit recusandae atque vitae! Aut, neque velit optio iure inventore ex?",
-        technoligies: ['HTML', 'CSS', 'Javascript']
+        name: 'Spotify',
+        description: " Frontend is designed by React , Tailwind CSS , React Router .Using Context API to managed all states.MongoDB , Node Js , Express Js .Using Cloudinary to upload musics and images .Dashboard admin pannel to upload or delete songs .Responsive for all devices .Well managed components",
+        technoligies: ['HTML', 'CSS', 'Tailwind', 'Javascript', 'React', 'Node', 'Express']
     },
     {
         image: image2,
-        name: 'Habit Tracker',
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id animi maxime veritatis nam, amet, beatae soluta exercitationem ex porro fugit recusandae atque vitae! Aut, neque velit optio iure inventore ex?",
-        technoligies: ['HTML', 'CSS', 'Javascript']
+        name: 'Ema Jhon',
+        description: "Implemented useState , useEffect HooksJs map method.Using React Router DomWell managed components Firebase Authentication",
+        technoligies: ['HTML', 'CSS', 'Javascript', 'React', '']
     },
     {
         image: image3,
-        name: 'Habit Tracker',
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id animi maxime veritatis nam, amet, beatae soluta exercitationem ex porro fugit recusandae atque vitae! Aut, neque velit optio iure inventore ex?",
-        technoligies: ['HTML', 'CSS', 'Javascript']
+        name: 'Z-Book ',
+        description: "Implemented useState , useEffect HooksJs map method , Form Validation ,Using React Router Dom and React-ReduxWell managed components Firebase Authentication , React Tostify , React cropper",
+        technoligies: ['HTML', 'CSS', 'Tailwind', 'Javascript', 'React', 'Node', 'Express']
     },
     {
         image: image4,
-        name: 'Habit Tracker',
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id animi maxime veritatis nam, amet, beatae soluta exercitationem ex porro fugit recusandae atque vitae! Aut, neque velit optio iure inventore ex?",
-        technoligies: ['HTML', 'CSS', 'Javascript']
+        name: 'Crypto Cafe',
+        description: "Implemented useState , useEffect HooksJs map method.Using React Router DomWell managed components Firebase Authentication",
+        technoligies: ['HTML', 'CSS', 'Tailwind', 'Javascript', 'React',]
     },
     {
         image: image5,

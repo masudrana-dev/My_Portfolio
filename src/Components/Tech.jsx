@@ -7,10 +7,12 @@ const Tech = () => {
     const variants = {
         hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0 }
+
     }
     return (
         <div id='tech' className=' min-h-[70vh] w-full flex flex-col items-center justify-center gap-16 md:gap-32 '>
             <motion.h1
+
                 variants={variants}
                 initial='hidden'
                 whileInView='visible'
@@ -22,10 +24,24 @@ const Tech = () => {
                     initial='hidden'
                     whileInView='visible'
                     transition={{ duration: 0.5 }}
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                 >
                     <BiLogoHtml5 className='cursor-pointer text-[80px] text-orange-500 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -34,6 +50,13 @@ const Tech = () => {
                     <BiLogoCss3 className='cursor-pointer text-[80px] text-yellow-600 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -42,6 +65,13 @@ const Tech = () => {
                     <BiLogoTailwindCss className='cursor-pointer text-[80px] text-sky-500 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -50,6 +80,13 @@ const Tech = () => {
                     <BiLogoJavascript className='cursor-pointer text-[80px] text-yellow-500 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -58,6 +95,13 @@ const Tech = () => {
                     <BiLogoMongodb className='cursor-pointer text-[80px] text-green-500 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -66,6 +110,13 @@ const Tech = () => {
                     <BiLogoReact className='cursor-pointer text-[80px] text-sky-500 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -74,6 +125,13 @@ const Tech = () => {
                     <BiLogoNodejs className='cursor-pointer text-[80px] text-green-600 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -82,6 +140,13 @@ const Tech = () => {
                     <BiLogoTypescript className='cursor-pointer text-[80px] text-sky-500 hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
@@ -90,6 +155,13 @@ const Tech = () => {
                     <RiNextjsLine className='cursor-pointer text-[80px] text-white hover:-translate-y-5 transition-all duration-300 sm:text-[100px] md:text-[120px] ' />
                 </motion.div>
                 <motion.div
+                    drag
+                    dragConstraints={{
+                        left: 50,
+                        top: 50,
+                        right: 50,
+                        bottom: 50
+                    }}
                     variants={variants}
                     initial='hidden'
                     whileInView='visible'
